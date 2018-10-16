@@ -1,0 +1,51 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+     <a class="button outline big" href="https://github.com/danismalls/TF_hack4freedom" onclick="_gaq.push(['_trackEvent', 'kube', 'github']);">View on Github</a>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Search" height="48" src="{{ "/img/search-solid.svg" | relURL }}" width="48">
+        </figure>
+        <h3>Search</h3>
+        <p>TellFinder allows analysts to quickly find ads by searching keywords, names,
+phone numbers and email addresses using a
+simple search interface.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Summarize" height="48" src="{{ "/img/list-ul-solid.svg" | relURL }}" width="48">
+        </figure>
+        <h3>Summarize</h3>
+        <p>Automatically group search results by common
+attributes and see top summaries for a given city
+location.
+See most frequent phone numbers, and which are
+new to town. Identify key people and organizations.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Find Connections" height="48" src="{{ "/img/link-solid.svg" | relURL }}" width="48">
+        </figure>
+        <h3>Find connections</h3>
+        <p>Relate personas and attributes
+Quickly investigate relationships between ads
+and discover networks of personas through
+shared extracted attributes such as:
+<body>
+    <ul>
+       <li>Phone Number</li>
+       <li>Email Address</li>
+       <li>Location</li>
+    </ul>
+ </body>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
