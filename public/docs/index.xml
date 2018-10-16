@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on TellFinder @ Hack 4 Freedom</title>
+    <link>/docs/</link>
+    <description>Recent content in Docs on TellFinder @ Hack 4 Freedom</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2017 16:41:40 +0100</lastBuildDate>
+    
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Background and Case Studies</title>
+      <link>/docs/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/background/</guid>
+      <description>Expose hidden connections to counter human trafficking With an estimated 30,000 new adult services ads and reviews posted every day, online data is a critical tool for locating victims and identifying those who exploit them. The majority of these ads are posted on the “Deep Web,” unindexed by Google and other search engines. These ads and posts are often temporary – taken down before investigators can find them – and use unstructured data and unlinked content to avoid being found</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/</guid>
+      <description> How to access the data </description>
+    </item>
+    
+    <item>
+      <title>Data Dictionary</title>
+      <link>/docs/datadict/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:40 +0100</pubDate>
+      
+      <guid>/docs/datadict/</guid>
+      <description> So, lets talk data. </description>
+    </item>
+    
+  </channel>
+</rss>
